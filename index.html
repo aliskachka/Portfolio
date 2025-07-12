@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Allison's Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .animate-fade-in {
+      animation: fadeIn 0.8s ease-out forwards;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-900 font-serif">
+
+  <!-- Navbar -->
+  <nav class="bg-gray-100 p-4 flex justify-center space-x-12 text-lg font-light border-b">
+    <a href="index.html" class="font-bold text-gray-800 transition-all hover:text-xl hover:text-indigo-600">Home</a>
+    <a href="work.html" class="transition-all hover:text-xl hover:text-indigo-600">My Work</a>
+    <a href="resume.html" class="transition-all hover:text-xl hover:text-indigo-600">Resume</a>
+    <a href="contact.html" class="transition-all hover:text-xl hover:text-indigo-600">Contact</a>
+  </nav>  
+
+  <!-- Intro Box -->
+  <section class="max-w-4xl mx-auto p-8 mt-16 animate-fade-in bg-gray-50 rounded-lg shadow-sm">
+    <!-- Profile Image (top-right corner, larger and zoomed in) -->
+<img 
+src="images/me.PNG" 
+alt="Allison Loskot" 
+class="w-36 h-36 rounded-full object-cover object-center absolute top-6 right-6 border-4 border-white shadow-lg"
+/>
+
+    <h1 class="text-6xl font-bold leading-tight mb-2">Hi, I’m Allison.</h1>
+    <h2 class="text-xl mt-2 text-gray-500 font-light mb-6">Software Engineer | UI/UX Background | Python Developer</h2>
+    <p class="text-lg leading-relaxed">
+      Growing up, I’ve always been a creator. Constantly coming up with ideas and 
+      finding ways to bring them to life. Once I discovered I could turn those ideas 
+      into real, working projects through code, everything changed. I fell in love 
+      with the freedom of frontend development, making things look exactly how I envisioned. 
+      But what surprised me most was how much I started enjoying backend. I recently picked up on
+      Python and quickly became obsessed with solving coding challenges. There’s something 
+      addicting about cracking a tough problem, especially on the first try. That’s when I knew I belonged in tech.
+    </p>
+  </section>
+
+  <!-- Divider -->
+  <hr class="my-12 border-gray-200 max-w-4xl mx-auto" />
+
+  <!-- Certifications -->
+<section class="max-w-4xl mx-auto px-6 py-12 animate-fade-in bg-gray-50 rounded-xl shadow-md">
+  <h2 class="text-3xl font-bold mb-8 text-center text-gray-800">Certifications & Ongoing Learning</h2>
+  
+  <div class="space-y-10">
+
+    <!-- CodePath -->
+<div class="flex items-start gap-6">
+  <img src="images/cp.png" alt="CodePath Logo" class="w-16 h-16 object-contain mt-1">
+  <div>
+    <h3 class="text-xl font-semibold text-gray-900">CodePath: Intro to Technical Interview Prep</h3>
+    <p class="text-sm text-gray-600">In Progress · Summer 2025</p>
+    <p class="mt-1 text-gray-700">
+      A competitive, instructor-led course designed to build confidence and skills for technical interviews through live classes and weekly assignments. 
+    </p>
+    <ul class="list-disc list-inside text-sm text-gray-700 mt-2">
+      <li>Uses the <strong>UMPIRE</strong> strategy for structured interview problem solving</li>
+      <li>Covers data structures and algorithm patterns across 10 weekly units</li>
+      <li>Includes hands-on coding practice in HackerRank and weekly technical challenges</li>
+      
+    
+  </div>
+</div>
+
+
+    <!-- Intro to Python -->
+<div class="flex items-start gap-6">
+  <img src="images/py.png" alt="Python Logo" class="w-16 h-16 object-contain mt-1">
+  <div>
+    <h3 class="text-xl font-semibold text-gray-900">CS50's Introduction to Programming with Python (HarvardX)</h3>
+    <p class="text-sm text-gray-600">In Progress · Self-Paced</p>
+    <p class="mt-1 text-gray-700">
+      A foundational course from HarvardX designed to teach core programming concepts using Python. 
+    </p>
+    <ul class="list-disc list-inside text-sm text-gray-700 mt-2">
+      <li>Explores fundamental topics like variables, functions, conditionals, loops, and exceptions</li>
+      <li>Dives deeper into unit testing, file I/O, regular expressions, and object-oriented programming</li>
+      <li>Includes 10 weeks of lectures and corresponding problem sets</li>
+    </ul>
+    
+    </p>
+  </div>
+</div>
+
+
+    <!-- Datacom -->
+    <div class="flex items-start gap-6">
+      <img src="images/dc.png" alt="Datacom Logo" class="w-16 h-16 object-contain mt-1">
+      <div>
+        <h3 class="text-xl font-semibold text-gray-900">Datacom Software Development Job Simulation</h3>
+        <p class="text-sm text-gray-600">Completed · July 2024</p>
+        <p class="mt-1 text-gray-700">
+          Completed a hands-on simulation to experience how Datacom’s software team works, including software review and bug resolution. 
+        </p>
+        
+        <ul class="list-disc list-inside text-sm text-gray-700 mt-2">
+          <li>Critical Thinking</li>
+          <li>Root Cause Analysis</li>
+          <li>Software Review & Written Communication</li>
+        </ul>
+        <a href="assets/dc.pdf" target="_blank" class="text-blue-600 hover:underline text-sm mt-1 inline-block">
+          View Certificate
+        </a>
+        
+      </div>
+    </div>
+
+    <!-- Lyft -->
+    <div class="flex items-start gap-6">
+      <img src="images/lyft.png" alt="Lyft Logo" class="w-16 h-16 object-contain mt-1">
+      <div>
+        <h3 class="text-xl font-semibold text-gray-900">Lyft Back-End Engineering Job Simulation</h3>
+        <p class="text-sm text-gray-600">Completed · October 2023</p>
+        <p class="mt-1 text-gray-700">
+          Participated in a virtual experience simulating backend development at Lyft.
+        </p>
+        <ul class="list-disc list-inside text-sm text-gray-700 mt-2">
+          <li>Drafted UML class diagrams for a reorganized architecture</li>
+          <li>Refactored a legacy codebase to reflect modern design principles</li>
+          <li>Used Python, unit testing, and software architecture principles</li>
+        </ul>
+        <a href="assets/lyft.pdf" target="_blank" class="text-blue-600 hover:underline text-sm mt-1 inline-block">
+          View Certificate
+        </a>
+        
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+  <!-- Divider -->
+  <hr class="my-12 border-gray-200 max-w-4xl mx-auto" />
+
+  <!-- Leadership Section -->
+<section class="max-w-5xl mx-auto mt-24 px-8 text-center animate-fade-in">
+  <h2 class="text-3xl font-bold mb-8">Leadership & Involvement</h2>
+
+  <div class="grid md:grid-cols-3 gap-8 text-left text-sm leading-relaxed">
+    <!-- Media Manager -->
+    <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition">
+      <h3 class="text-lg font-semibold mb-2">Media Manager, Women in Tech Club 📣</h3>
+      <p class="text-gray-700">May 2024 – May 2025</p>
+      <ul class="mt-2 list-disc list-inside text-gray-600">
+        <li>Created flyers and managed all media content for the org</li>
+        <li>Increased LinkedIn impressions by 200%+ from Feb to May</li>
+        <li>Promoted events and encouraged women to pursue tech</li>
+      </ul>
+    </div>
+
+    <!-- Alumni Event -->
+    <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition">
+      <h3 class="text-lg font-semibold mb-2">Women In Tech Alumni Chat Event 🎤</h3>
+      <p class="text-gray-700">April 2024</p>
+      <ul class="mt-2 list-disc list-inside text-gray-600">
+        <li>Organized & hosted a panel of inspiring alumni speakers</li>
+        <li>Led Q&A sessions for career advice and networking</li>
+        <li>Empowered students with real-world insights</li>
+      </ul>
+    </div>
+
+    <!-- RTC -->
+    <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition">
+      <h3 class="text-lg font-semibold mb-2">Rewriting The Code 💻</h3>
+      <p class="text-gray-700">May 2023 – May 2024</p>
+      <ul class="mt-2 list-disc list-inside text-gray-600">
+        <li>Active RTC member and hackathon participant</li>
+        <li>Collaborated with peers to solve real-world problems</li>
+        <li>Built confidence through community & coding challenges</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Divider -->
+<hr class="my-12 border-gray-200 max-w-4xl mx-auto" />
+
+<!-- Auto-scrolling Leadership Image Carousel -->
+<section class="max-w-6xl mx-auto mt-16 px-8 animate-fade-in overflow-hidden">
+  <div class="relative w-full overflow-hidden">
+    <div class="absolute left-0 top-0 h-full w-16 bg-gradient-to-r from-white to-transparent z-10"></div>
+  <div class="absolute right-0 top-0 h-full w-16 bg-gradient-to-l from-white to-transparent z-10"></div>
+
+    <div class="flex gap-4 animate-scroll whitespace-nowrap w-max">
+      <!-- Original Set -->
+      <img src="images/1.jpeg" class="h-48 rounded-lg object-cover shadow-md" />
+      <img src="images/2.jpeg" class="h-48 rounded-lg object-cover shadow-md" />
+      <img src="images/3.jpeg" class="h-48 rounded-lg object-cover shadow-md" />
+      <img src="images/4.jpeg" class="h-48 rounded-lg object-cover shadow-md" />
+      <img src="images/5.jpeg" class="h-48 rounded-lg object-cover shadow-md" />
+      <img src="images/6.jpeg" class="h-48 rounded-lg object-cover shadow-md" />
+      <img src="images/7.jpeg" class="h-48 rounded-lg object-cover shadow-md" />
+      <img src="images/8.jpeg" class="h-48 rounded-lg object-cover shadow-md" />
+      <img src="images/9.jpeg" class="h-48 rounded-lg object-cover shadow-md" />
+      <img src="images/10.jpeg" class="h-48 rounded-lg object-cover shadow-md" />
+
+      <!-- Duplicate Set -->
+      <img src="images/1.jpeg" class="h-48 rounded-lg object-cover shadow-md" />
+      <img src="images/2.jpeg" class="h-48 rounded-lg object-cover shadow-md" />
+      <img src="images/3.jpeg" class="h-48 rounded-lg object-cover shadow-md" />
+      <img src="images/4.jpeg" class="h-48 rounded-lg object-cover shadow-md" />
+      <img src="images/5.jpeg" class="h-48 rounded-lg object-cover shadow-md" />
+      <img src="images/6.jpeg" class="h-48 rounded-lg object-cover shadow-md" />
+      <img src="images/7.jpeg" class="h-48 rounded-lg object-cover shadow-md" />
+      <img src="images/8.jpeg" class="h-48 rounded-lg object-cover shadow-md" />
+      <img src="images/9.jpeg" class="h-48 rounded-lg object-cover shadow-md" />
+      <img src="images/10.jpeg" class="h-48 rounded-lg object-cover shadow-md" />
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Divider -->
+<hr class="my-12 border-gray-200 max-w-4xl mx-auto" />
+
+  <!-- Tech Stack Section -->
+  <section class="max-w-5xl mx-auto px-6 py-16 text-center animate-fade-in">
+    <h2 class="text-3xl font-bold mb-8">My Tech Stack</h2>
+    <div class="flex flex-wrap justify-center gap-4">
+      <!-- Tech badges -->
+      <span class="flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full shadow text-gray-800 hover:scale-105 hover:bg-gray-200 transition-all">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="w-5 h-5" />
+        Python
+      </span>
+      <span class="flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full shadow text-gray-800 hover:scale-105 hover:bg-gray-200 transition-all">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" class="w-5 h-5" />
+        C++
+      </span>
+      <span class="flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full shadow text-gray-800 hover:scale-105 hover:bg-gray-200 transition-all">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="w-5 h-5" />
+        JavaScript
+      </span>
+      <span class="flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full shadow text-gray-800 hover:scale-105 hover:bg-gray-200 transition-all">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="w-5 h-5" />
+        HTML
+      </span>
+      <span class="flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full shadow text-gray-800 hover:scale-105 hover:bg-gray-200 transition-all">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="w-5 h-5" />
+        CSS
+      </span>
+      <span class="flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full shadow text-gray-800 hover:scale-105 hover:bg-gray-200 transition-all">
+        <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" class="w-5 h-5" />
+        Tailwind
+      </span>
+      <span class="flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full shadow text-gray-800 hover:scale-105 hover:bg-gray-200 transition-all">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" class="w-5 h-5" />
+        React
+      </span>
+      <span class="flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full shadow text-gray-800 hover:scale-105 hover:bg-gray-200 transition-all">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" class="w-5 h-5" />
+        Node.js
+      </span>
+      <span class="flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full shadow text-gray-800 hover:scale-105 hover:bg-gray-200 transition-all">
+        <img src="https://vitejs.dev/logo.svg" alt="Vite" class="w-5 h-5" />
+        Vite
+      </span>
+      <span class="flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full shadow text-gray-800 hover:scale-105 hover:bg-gray-200 transition-all">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" class="w-5 h-5" />
+        Git
+      </span>
+      <span class="flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-full shadow text-gray-800 hover:scale-105 hover:bg-gray-200 transition-all">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current text-gray-700" viewBox="0 0 24 24">
+          <path d="M10 15l5.19-3L10 9v6zm-6-9h16a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V8a2 2 0 012-2z"/>
+        </svg>
+        CapCut
+      </span>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="mt-20 py-6 border-t text-center text-gray-500 text-sm">
+    © 2025 Allison Loskot. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

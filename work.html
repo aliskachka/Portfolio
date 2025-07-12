@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Work | Allison</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fade-in-up {
+      animation: fadeInUp 0.6s ease-out both;
+    }
+  </style>
+</head>
+<body class="bg-cover bg-center text-gray-900 font-serif" >
+
+
+  <!-- Navbar -->
+<nav class="bg-gray-100 p-4 flex justify-center space-x-12 text-lg font-light border-b">
+  <a href="index.html" class="hover:text-xl hover:text-indigo-600 transition-all">Home</a>
+  <a href="work.html" class="hover:text-xl hover:text-indigo-600 font-bold transition-all">My Work</a>
+  <a href="resume.html" class="hover:text-xl hover:text-indigo-600 transition-all">Resume</a>
+  <a href="contact.html" class="hover:text-xl hover:text-indigo-600 transition-all">Contact</a>
+</nav>
+
+
+  <!-- Work Section -->
+  <section class="max-w-5xl mx-auto px-6 py-16">
+    <h1 class="text-4xl font-bold mb-2 text-center">My Work</h1>
+    <p class="text-center text-lg mb-12">Scroll through to explore some of my favorite recent projects ↓</p>
+
+    <!-- Quizette Project -->
+    <div class="bg-gray-50 p-6 rounded-lg shadow-sm flex flex-col md:flex-row items-center gap-8 mb-16 animate-fade-in-up">
+      <!-- Text Content -->
+      <div class="flex-1">
+        <h2 class="text-2xl font-bold mb-2">Quizette</h2>
+        <p class="text-lg mb-4">
+          An adaptive learning quiz app built with React & Firebase to make studying more fun and smart for CS students.
+          Features personalized questions, saved scores, and multiple categories.
+        </p>
+        <a href="https://github.com/lindseyveneziano/Quizette.git" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline text-sm">
+          View on GitHub →
+        </a>
+        
+        <div class="flex flex-wrap gap-2 my-4">
+          <span class="px-2 py-1 bg-gray-200 rounded text-sm">#React</span>
+          <span class="px-2 py-1 bg-gray-200 rounded text-sm">#Node.js</span>
+          <span class="px-2 py-1 bg-gray-200 rounded text-sm">#TailwindCSS</span>
+          <span class="px-2 py-1 bg-gray-200 rounded text-sm">#Vite</span>
+          <span class="px-2 py-1 bg-gray-200 rounded text-sm">#JavaScript</span>
+          <span class="px-2 py-1 bg-gray-200 rounded text-sm">#HTML&CSS</span>
+        </div>
+        <p class="text-sm text-gray-600">Backend Tools used: Firebase, Firebase SDK, Firebase Cloud Console, JavaScript&JSX, GitHub</p>
+      </div>
+
+      <!-- quizetteVideo -->
+      <div class="flex flex-col items-center">
+        <span class="text-sm font-medium italic text-gray-500 mb-2">Demo Video</span>
+        <div class="w-[250px] h-[520px] overflow-hidden rounded-md border border-gray-200 shadow-sm">
+          <iframe
+            src="https://player.vimeo.com/video/1085108906"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+            class="w-full h-full scale-[1.05] -translate-y-1 transition-transform">
+          </iframe>
+        </div>
+      </div>
+
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <hr class="my-12 border-gray-200" />
+
+    <!-- Cooking Blog Project -->
+<div class="bg-gray-50 p-6 rounded-lg shadow-sm flex flex-col gap-8 md:flex-row md:items-start my-16 animate-fade-in-up">
+  <!-- Text Content -->
+  <div class="flex-1">
+    <h2 class="text-2xl font-bold mb-2">Cooking Blog | Personal Project</h2>
+    <p class="text-lg mb-4">
+      A cozy and aesthetic cooking blog where I share recipes, tips, and stories behind the food I love. 
+      Built using HTML, CSS, and Tailwind, it blends clean design with flavor.
+    </p>
+    <a href="https://github.com/aliskachka/blog.git" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline text-sm">
+      View on GitHub →
+    </a>
+    <div class="flex flex-wrap gap-2 my-4">
+      <span class="px-2 py-1 bg-gray-200 rounded text-sm">#HTML</span>
+      <span class="px-2 py-1 bg-gray-200 rounded text-sm">#CSS</span>
+      <span class="px-2 py-1 bg-gray-200 rounded text-sm">#Tailwind</span>
+    </div>
+    <p class="text-sm text-gray-600">Other Tools used: Canva, Github</p>
+  </div>
+
+  <!-- Cooking Blog Video (cleaned padding) -->
+<div class="flex flex-col items-center">
+  <span class="text-sm font-medium italic text-gray-500 mb-2">Demo Video</span>
+  <div class="w-full md:w-[450px] aspect-video overflow-hidden rounded-md shadow-sm">
+    <iframe 
+      src="https://player.vimeo.com/video/1100877585?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+      frameborder="0" 
+      allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
+      allowfullscreen 
+      class="w-full h-full scale-[1.001] -translate-y-1 transition-transform"
+      title="HTML cooking page">
+    </iframe>
+  </div>
+</div>
+
+
+</div>
+
+
+<!-- Divider -->
+<hr class="my-12 border-gray-200" />
+
+
+    <!-- Weather Wardrobe Project -->
+<div class="bg-gray-50 p-6 rounded-lg shadow-sm flex flex-col md:flex-row items-center gap-8 animate-fade-in-up">
+  <!-- Text Content -->
+  <div class="flex-1">
+    <h2 class="text-2xl font-bold mb-2">Weather Wardrobe</h2>
+    <p class="text-lg mb-4">
+      An Android app built using Kotlin + Jetpack Compose that recommends outfits based on real-time weather data.
+      Designed with simplicity, weather API integration, and clean UI.
+    </p>
+    
+    <div class="flex flex-wrap gap-2 my-4">
+      <span class="px-2 py-1 bg-gray-200 rounded text-sm">#Kotlin</span>
+      <span class="px-2 py-1 bg-gray-200 rounded text-sm">#JetpackCompose</span>
+      <span class="px-2 py-1 bg-gray-200 rounded text-sm">#Android</span>
+      <span class="px-2 py-1 bg-gray-200 rounded text-sm">#WeatherAPI</span>
+    </div>
+    <p class="text-sm text-gray-600">Other Tools used: Android Studio, OpenWeatherMap API, GitHub</p>
+  </div>
+
+  <!-- Weather Wardrobe Video -->
+  <div class="flex flex-col items-center">
+    <span class="text-sm font-medium italic text-gray-500 mb-2">Demo Video</span>
+    <div class="w-[250px] h-[520px] overflow-hidden rounded-md shadow-sm">
+      <iframe 
+        src="https://player.vimeo.com/video/1100880922?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+        frameborder="0" 
+        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
+        allowfullscreen 
+        class="w-full h-full scale-[1.08] -translate-y-1 transition-transform" 
+        title="android app">
+      </iframe>
+    </div>
+  </div>
+</div>
+<!-- Divider -->
+<hr class="my-12 border-gray-200" />
+
+<!-- Portfolio Website Project -->
+<div class="bg-gray-50 p-6 rounded-lg shadow-sm flex flex-col gap-8 md:flex-row md:items-start my-16 animate-fade-in-up">
+  <!-- Text Content -->
+  <div class="flex-1">
+    <h2 class="text-2xl font-bold mb-2">Personal Portfolio Website</h2>
+    <p class="text-lg mb-4">
+      The very site you're viewing now! Built entirely from scratch using HTML, CSS, and Tailwind to showcase my work and creative projects using a clean, minimalistic layout.
+    </p>
+    
+    <div class="flex flex-wrap gap-2 my-4">
+      <span class="px-2 py-1 bg-gray-200 rounded text-sm">#HTML</span>
+      <span class="px-2 py-1 bg-gray-200 rounded text-sm">#CSS</span>
+      <span class="px-2 py-1 bg-gray-200 rounded text-sm">#Tailwind</span>
+    </div>
+    <p class="text-sm text-gray-600">Other Tools used: GitHub, Figma (for design planning)</p>
+  </div>
+</div>
+
+
+  </section>
+  <!-- Footer -->
+  <footer class="mt-20 py-6 border-t text-center text-gray-500 text-sm">
+    © 2025 Allison Loskot. All rights reserved.
+  </footer>
+</body>
+</html>
